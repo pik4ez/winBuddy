@@ -69,7 +69,7 @@ static void *isActive = &isActive;
             [Defaults registerDefaults:@{ PrefKey(@"HideMenubar"): @NO }];
             [Defaults registerDefaults:@{ PrefKey(@"HideShadow"): @YES }];
             [Defaults registerDefaults:@{ PrefKey(@"HideTitleBar"): @NO }];
-            [Defaults registerDefaults:@{ PrefKey(@"ShowBorder"): @YES }];
+            [Defaults registerDefaults:@{ PrefKey(@"ShowBorder"): @NO }];
 
             [plugin setMenu];
             [plugin _updateMenubarState];
